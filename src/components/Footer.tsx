@@ -1,5 +1,4 @@
-import { Instagram, Mail } from 'lucide-react';
-import { MessageCircle } from 'lucide-react';
+import { Instagram, Mail, MessageCircle } from 'lucide-react';
 import logo from 'figma:asset/f7fd173bc954ab268532e109e419ec22f89f8d84.png';
 
 export function Footer() {
