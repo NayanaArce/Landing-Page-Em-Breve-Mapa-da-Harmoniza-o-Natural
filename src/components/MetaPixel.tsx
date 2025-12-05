@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 export function MetaPixel() {
   useEffect(() => {
     // Insira seu ID do Pixel do Meta aqui
-    const PIXEL_ID = 'SEU_PIXEL_ID_AQUI';
+    const PIXEL_ID = '1314849550684056';
     
     // Código base do Pixel do Meta
     (function(f: any, b: any, e: any, v: any, n?: any, t?: any, s?: any) {
@@ -31,7 +31,7 @@ export function MetaPixel() {
     );
 
     // Inicializa o Pixel
-    if (PIXEL_ID !== 'SEU_PIXEL_ID_AQUI') {
+    if (PIXEL_ID !== '1314849550684056') {
       (window as any).fbq('init', PIXEL_ID);
       (window as any).fbq('track', 'PageView');
     }
